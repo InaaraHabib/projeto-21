@@ -48,7 +48,7 @@ rightSide = new ground(100,250,20,120);
 function keyPressed(){
 	if (keyCode === UP_ARROW){
 
-		Matter.Body.applyForce(20,30,70);
+		Matter.Body.applyForce(ball,ball.position,{x:85,y:-85});
 
 
 
